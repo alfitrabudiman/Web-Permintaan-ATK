@@ -1,0 +1,94 @@
+/* Style umum untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Warna latar belakang */
+  margin: 0; /* Menghilangkan margin di sekitar body */
+  padding: 0; /* Menghilangkan padding di dalam body */
+}
+
+/* Container untuk mengatur tata letak konten */
+.container {
+  max-width: 600px; /* Lebar maksimum kontainer */
+  margin: 50px auto; /* Margin atas dan bawah 50px, dan mengatur margin sisi kiri dan kanan secara otomatis */
+  background-color: #fff; /* Warna latar belakang kontainer */
+  padding: 20px; /* Padding di dalam kontainer */
+  border-radius: 8px; /* Sudut lengkung pada kontainer */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar kontainer */
+}
+
+/* Style untuk heading level 2 */
+h2 {
+  text-align: center; /* Posisi teks menjadi tengah */
+  color: #333; /* Warna teks */
+}
+
+/* Style untuk form */
+form {
+  display: flex; /* Menampilkan form sebagai flex container */
+  flex-direction: column; /* Mengatur arah konten form menjadi kolom */
+}
+
+/* Kelompokkan form element */
+.form-group {
+  margin-bottom: 15px; /* Margin bawah setiap form group */
+}
+
+/* Style untuk input teks, password, dan select */
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%; /* Lebar elemen form menjadi 100% */
+  padding: 10px; /* Padding di dalam elemen form */
+  font-size: 16px; /* Ukuran font */
+  border: 1px solid #ccc; /* Border dengan warna abu-abu */
+  border-radius: 4px; /* Sudut lengkung pada border */
+  box-sizing: border-box; /* Box sizing untuk mempertahankan ukuran total elemen */
+}
+
+/* Style khusus untuk select */
+select {
+  cursor: pointer; /* Mengubah kursor menjadi pointer */
+}
+
+/* Bagian untuk button */
+.buttons {
+  display: flex; /* Menampilkan button sebagai flex container */
+  justify-content: center; /* Menyusun button di tengah */
+  align-items: center; /* Menyusun button secara vertikal di tengah */
+}
+
+/* Kelompokkan button */
+.button-group {
+  display: flex; /* Menampilkan button group sebagai flex container */
+}
+
+/* Style untuk link pembatalan */
+.cancel-link {
+  padding: 10px 15px; /* Padding di dalam link pembatalan */
+  margin-right: 10px; /* Margin kanan link pembatalan */
+  background-color: #ddd; /* Warna latar belakang link pembatalan */
+  color: #333; /* Warna teks link pembatalan */
+  text-decoration: none; /* Menghapus dekorasi link */
+  border-radius: 4px; /* Sudut lengkung pada link */
+  transition: background-color 0.3s; /* Transisi saat mengubah warna latar belakang */
+}
+
+.cancel-link:hover {
+  background-color: #ccc; /* Warna latar belakang link pembatalan saat dihover */
+}
+
+/* Style untuk button utama */
+.btn {
+  background-color: #4caf50; /* Warna latar belakang button */
+  color: white; /* Warna teks button */
+  padding: 12px 20px; /* Padding di dalam button */
+  border: none; /* Menghapus border button */
+  border-radius: 4px; /* Sudut lengkung pada button */
+  cursor: pointer; /* Mengubah kursor menjadi pointer */
+  font-size: 16px; /* Ukuran font */
+}
+
+.btn:hover {
+  background-color: #45a049; /* Warna latar belakang button saat dihover */
+  transition: background-color 0.3s; /* Transisi saat mengubah warna latar belakang */
+}

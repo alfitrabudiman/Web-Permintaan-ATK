@@ -1,0 +1,297 @@
+CRITICAL - 2024-05-23 09:24:45 --> Error: Class "CodeIgniter\Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 09:27:02 --> Error: Class "CodeIgniter\Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 09:27:03 --> Error: Class "CodeIgniter\Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 09:27:03 --> Error: Class "CodeIgniter\Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 14:55:32 --> Error: Class "CodeIgniter\Services" not found
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 14.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 14:56:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "permintaan/dashboarkaryawan.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('permintaan/dashboarkaryawan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/dashboarkaryawan', [], true)
+ 3 APPPATH\Controllers\PermintaanController.php(18): view('permintaan/dashboarkaryawan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:25:00 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:26:58 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:30:43 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:30:45 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:34:08 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:34:09 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:34:10 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:34:11 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:34:14 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:39:08 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:42:11 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:42:13 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:42:14 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:42:15 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-23 16:43:34 --> ErrorException: Cannot redeclare App\Controllers\PermintaanController::header()
+[Method: GET, Route: permintaanatk]
+in APPPATH\Controllers\PermintaanController.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 16:51:05 --> ErrorException: Undefined variable $id_header
+[Method: GET, Route: permintaanatk]
+in APPPATH\Views\permintaan\header.php on line 189.
+ 1 APPPATH\Views\permintaan\header.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_header', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\permintaan\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('permintaan/header', [], true)
+ 5 APPPATH\Controllers\PermintaanController.php(25): view('permintaan/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PermintaanController->header()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PermintaanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')

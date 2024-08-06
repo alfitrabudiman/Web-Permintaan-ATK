@@ -1,0 +1,326 @@
+INFO - 2024-06-16 15:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 15:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 15:35:35 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 136.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+INFO - 2024-06-16 15:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 15:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 15:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 15:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 15:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 15:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 15:58:16 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 126.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 126)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:00:37 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 126.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 126)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:03:07 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 29.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:05:12 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 126.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 126)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:07:00 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 126.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 126)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:07:02 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 126.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 126)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:11:19 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 126.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 126)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:22:33 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\atk\kelola_data_atk.php on line 24.
+ 1 APPPATH\Views\atk\kelola_data_atk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/kelola_data_atk', [], true)
+ 5 APPPATH\Views\dashboard\dashboardkaryawan.php(124): view('atk/kelola_data_atk')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 9 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+10 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+11 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:25:32 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\atk\kelola_data_atk.php on line 24.
+ 1 APPPATH\Views\atk\kelola_data_atk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/kelola_data_atk', [], true)
+ 5 APPPATH\Views\dashboard\dashboardkaryawan.php(124): view('atk/kelola_data_atk')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 9 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+10 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+11 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:28:12 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\atk\kelola_data_atk.php on line 24.
+ 1 APPPATH\Views\atk\kelola_data_atk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/kelola_data_atk', [], true)
+ 5 APPPATH\Views\dashboard\dashboardkaryawan.php(124): view('atk/kelola_data_atk')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 9 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+10 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+11 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:28:14 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\atk\kelola_data_atk.php on line 24.
+ 1 APPPATH\Views\atk\kelola_data_atk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/kelola_data_atk', [], true)
+ 5 APPPATH\Views\dashboard\dashboardkaryawan.php(124): view('atk/kelola_data_atk')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 9 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+10 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+11 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:29:06 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\atk\kelola_data_atk.php on line 24.
+ 1 APPPATH\Views\atk\kelola_data_atk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/kelola_data_atk', [], true)
+ 5 APPPATH\Views\dashboard\dashboardkaryawan.php(124): view('atk/kelola_data_atk')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 9 APPPATH\Config\Routes.php(77): view('dashboard/dashboardkaryawan')
+10 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+11 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+INFO - 2024-06-16 16:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-16 16:32:20 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\atk\kelola_data_atk.php on line 24.
+ 1 APPPATH\Views\atk\kelola_data_atk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\kelola_data_atk.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/kelola_data_atk', [], true)
+ 5 APPPATH\Views\dashboard\dashboardkaryawan.php(124): view('atk/kelola_data_atk')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 9 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+10 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+11 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+ERROR - 2024-06-16 16:42:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`helena`.`atkheader`, CONSTRAINT `atkheader_ibfk_2` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`)) in C:\xampp\htdocs\ci-lesson-atk\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ci-lesson-atk\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `de...', 0)
+#1 C:\xampp\htdocs\ci-lesson-atk\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `de...')
+#2 C:\xampp\htdocs\ci-lesson-atk\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `de...')
+#3 C:\xampp\htdocs\ci-lesson-atk\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `de...', Array, false)
+#4 C:\xampp\htdocs\ci-lesson-atk\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci-lesson-atk\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\ci-lesson-atk\app\Controllers\DepartemenController.php(61): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\ci-lesson-atk\system\CodeIgniter.php(933): App\Controllers\DepartemenController->delete('1')
+#8 C:\xampp\htdocs\ci-lesson-atk\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+#9 C:\xampp\htdocs\ci-lesson-atk\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-lesson-atk\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-lesson-atk\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci-lesson-atk\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ci-lesson-atk\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-06-16 16:42:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`helena`.`atkheader`, CONSTRAINT `atkheader_ibfk_2` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`))
+[Method: GET, Route: departemen/delete/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `departemen`
+WHERE `id_departemen` IN :id_departemen:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DepartemenController.php(61): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:42:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`helena`.`atkheader`, CONSTRAINT `atkheader_ibfk_2` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `departemen`
+WHERE `id_departemen` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `departemen`
+WHERE `id_departemen` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `departemen`
+WHERE `id_departemen` IN :id_departemen:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DepartemenController.php(61): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-16 16:42:22 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`helena`.`atkheader`, CONSTRAINT `atkheader_ibfk_2` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `departemen`
+WHERE `id_departemen` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `departemen`
+WHERE `id_departemen` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `departemen`
+WHERE `id_departemen` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `departemen`
+WHERE `id_departemen` IN :id_departemen:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DepartemenController.php(61): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+INFO - 2024-06-16 16:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-16 16:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

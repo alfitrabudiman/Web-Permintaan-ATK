@@ -1,0 +1,188 @@
+CRITICAL - 2024-05-31 08:16:12 --> ParseError: syntax error, unexpected token "class", expecting "function" or "const"
+[Method: GET, Route: atk/kelola_data_atk]
+in APPPATH\Controllers\AtkController.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Controllers\\AtkController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AtkController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AtkController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AtkController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 08:18:21 --> ParseError: syntax error, unexpected token "class", expecting "function" or "const"
+[Method: GET, Route: atk/kelola_data_atk]
+in APPPATH\Controllers\AtkController.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Controllers\\AtkController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AtkController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AtkController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AtkController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 08:50:38 --> Error: Class "App\Controllers\DepartementkModel" not found
+[Method: GET, Route: departemen/kelola_data_departemen]
+in APPPATH\Controllers\DepartemenController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->keloladepartemen()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 08:52:09 --> ErrorException: Undefined array key "id_dpartemen"
+[Method: GET, Route: departemen/kelola_data_departemen]
+in APPPATH\Views\departemen\kelola_data_departemen.php on line 25.
+ 1 APPPATH\Views\departemen\kelola_data_departemen.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_dpartemen"', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\departemen\\kelola_data_departemen.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\departemen\\kelola_data_departemen.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departemen/kelola_data_departemen', [], true)
+ 5 APPPATH\Controllers\DepartemenController.php(14): view('departemen/kelola_data_departemen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->keloladepartemen()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 08:54:30 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: departemen/edit/1]
+in APPPATH\Views\departemen\edit.php on line 9.
+ 1 APPPATH\Views\departemen\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\departemen\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\departemen\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departemen/edit', [], true)
+ 5 APPPATH\Controllers\DepartemenController.php(38): view('departemen/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 08:55:53 --> ErrorException: Undefined variable $departemenk
+[Method: GET, Route: departemen/delete/2]
+in APPPATH\Controllers\DepartemenController.php on line 55.
+ 1 APPPATH\Controllers\DepartemenController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departemenk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Controllers\\DepartemenController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DepartemenController->delete('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DepartemenController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 11:04:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "karyawan/kelola_data_karyawan.php"
+[Method: GET, Route: karyawan/kelola_data_karyawan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('karyawan/kelola_data_karyawan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('karyawan/kelola_data_karyawan', [], true)
+ 3 APPPATH\Controllers\KaryawanController.php(14): view('karyawan/kelola_data_karyawan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->kelolakaryawan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 11:06:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "karyawan/kelola_data_karyawan.php"
+[Method: GET, Route: karyawan/kelola_data_karyawan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('karyawan/kelola_data_karyawan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('karyawan/kelola_data_karyawan', [], true)
+ 3 APPPATH\Controllers\KaryawanController.php(14): view('karyawan/kelola_data_karyawan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->kelolakaryawan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 11:26:29 --> ErrorException: Undefined variable $id_karywan
+[Method: GET, Route: karyawan/edit/1]
+in APPPATH\Controllers\KaryawanController.php on line 39.
+ 1 APPPATH\Controllers\KaryawanController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_karywan', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Controllers\\KaryawanController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+ERROR - 2024-05-31 11:27:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`helena`.`karyawan`, CONSTRAINT `karyawan_ibfk_1` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`)) in C:\xampp\htdocs\ci-lesson-atk\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ci-lesson-atk\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `karyawa...', 0)
+#1 C:\xampp\htdocs\ci-lesson-atk\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `karyawa...')
+#2 C:\xampp\htdocs\ci-lesson-atk\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `karyawa...')
+#3 C:\xampp\htdocs\ci-lesson-atk\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `karyawa...', Array, false)
+#4 C:\xampp\htdocs\ci-lesson-atk\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\ci-lesson-atk\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\ci-lesson-atk\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\ci-lesson-atk\app\Controllers\KaryawanController.php(53): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\ci-lesson-atk\system\CodeIgniter.php(933): App\Controllers\KaryawanController->update('1')
+#9 C:\xampp\htdocs\ci-lesson-atk\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+#10 C:\xampp\htdocs\ci-lesson-atk\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci-lesson-atk\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci-lesson-atk\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\ci-lesson-atk\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\ci-lesson-atk\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-05-31 11:27:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`helena`.`karyawan`, CONSTRAINT `karyawan_ibfk_1` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`))
+[Method: POST, Route: karyawan/update/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `karyawan` SET `nama_karyawan` = :nama_karyawan:, `id_departemen` = :id_departemen:, `username_karyawan` = :username_karyawan:
+WHERE `karyawan`.`id_karyawan` IN :karyawan.id_karyawan:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\KaryawanController.php(53): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 11:27:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`helena`.`karyawan`, CONSTRAINT `karyawan_ibfk_1` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `karyawan` SET `nama_karyawan` = NULL, `id_departemen` = \'dpt 1\', `username_karyawan` = \'hidayatullah1\'
+WHERE `karyawan`.`id_karyawan` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `karyawan` SET `nama_karyawan` = NULL, `id_departemen` = \'dpt 1\', `username_karyawan` = \'hidayatullah1\'
+WHERE `karyawan`.`id_karyawan` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `karyawan` SET `nama_karyawan` = :nama_karyawan:, `id_departemen` = :id_departemen:, `username_karyawan` = :username_karyawan:
+WHERE `karyawan`.`id_karyawan` IN :karyawan.id_karyawan:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\KaryawanController.php(53): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->update('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-05-31 11:27:17 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`helena`.`karyawan`, CONSTRAINT `karyawan_ibfk_1` FOREIGN KEY (`id_departemen`) REFERENCES `departemen` (`id_departemen`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `karyawan` SET `nama_karyawan` = NULL, `id_departemen` = \'dpt 1\', `username_karyawan` = \'hidayatullah1\'
+WHERE `karyawan`.`id_karyawan` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `karyawan` SET `nama_karyawan` = NULL, `id_departemen` = \'dpt 1\', `username_karyawan` = \'hidayatullah1\'
+WHERE `karyawan`.`id_karyawan` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `karyawan` SET `nama_karyawan` = NULL, `id_departemen` = \'dpt 1\', `username_karyawan` = \'hidayatullah1\'
+WHERE `karyawan`.`id_karyawan` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `karyawan` SET `nama_karyawan` = :nama_karyawan:, `id_departemen` = :id_departemen:, `username_karyawan` = :username_karyawan:
+WHERE `karyawan`.`id_karyawan` IN :karyawan.id_karyawan:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\KaryawanController.php(53): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->update('1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')

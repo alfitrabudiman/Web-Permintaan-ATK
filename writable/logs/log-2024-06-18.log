@@ -1,0 +1,171 @@
+INFO - 2024-06-18 04:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 04:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-18 06:13:55 --> ErrorException: Undefined variable $jumlah_karyawan
+[Method: GET, Route: atk/dashboardadmin]
+in APPPATH\Views\atk\dashboardadmin.php on line 108.
+ 1 APPPATH\Views\atk\dashboardadmin.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_karyawan', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\dashboardadmin.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\dashboardadmin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/dashboardadmin', [], true)
+ 5 APPPATH\Controllers\AtkController.php(14): view('atk/dashboardadmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtkController->dashboardadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtkController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:15:00 --> ErrorException: Undefined variable $jumlah_karyawan
+[Method: GET, Route: atk/dashboardadmin]
+in APPPATH\Views\atk\dashboardadmin.php on line 108.
+ 1 APPPATH\Views\atk\dashboardadmin.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_karyawan', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\dashboardadmin.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\dashboardadmin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/dashboardadmin', [], true)
+ 5 APPPATH\Controllers\AtkController.php(14): view('atk/dashboardadmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtkController->dashboardadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtkController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:17:42 --> ErrorException: Undefined variable $jumlah_karyawan
+[Method: GET, Route: atk/dashboardadmin]
+in APPPATH\Views\atk\dashboardadmin.php on line 108.
+ 1 APPPATH\Views\atk\dashboardadmin.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah_karyawan', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\dashboardadmin.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\atk\\dashboardadmin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('atk/dashboardadmin', [], true)
+ 5 APPPATH\Controllers\AtkController.php(14): view('atk/dashboardadmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AtkController->dashboardadmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtkController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+INFO - 2024-06-18 06:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 06:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 06:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-18 06:43:06 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 127.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 127)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:49:32 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 134.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 134)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:49:58 --> ErrorException: Undefined variable $alat
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 134.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alat', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 134)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:51:26 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 134.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 134)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:52:46 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 135.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-18 06:58:49 --> ErrorException: Undefined variable $atk
+[Method: GET, Route: dashboard/dashboardkaryawan]
+in APPPATH\Views\dashboard\dashboardkaryawan.php on line 135.
+ 1 APPPATH\Views\dashboard\dashboardkaryawan.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $atk', 'C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci-lesson-atk\\app\\Views\\dashboard\\dashboardkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboardkaryawan', [], true)
+ 5 APPPATH\Config\Routes.php(76): view('dashboard/dashboardkaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+INFO - 2024-06-18 07:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 07:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 09:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 09:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 09:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 09:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 09:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 09:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 12:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-18 13:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

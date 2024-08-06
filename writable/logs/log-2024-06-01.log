@@ -1,0 +1,28 @@
+CRITICAL - 2024-06-01 06:22:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/karyawan/layout.php"
+[Method: GET, Route: karyawan/kelola_data_karyawan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/karyawan/layout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('/karyawan/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('karyawan/kelola_data_karyawan', [], true)
+ 4 APPPATH\Controllers\KaryawanController.php(14): view('karyawan/kelola_data_karyawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->kelolakaryawan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')
+CRITICAL - 2024-06-01 06:22:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/karyawan/layout.php"
+[Method: GET, Route: karyawan/kelola_data_karyawan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/karyawan/layout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('/karyawan/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('karyawan/kelola_data_karyawan', [], true)
+ 4 APPPATH\Controllers\KaryawanController.php(14): view('karyawan/kelola_data_karyawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KaryawanController->kelolakaryawan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryawanController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\ci-lesson-atk\\public\\index.php')

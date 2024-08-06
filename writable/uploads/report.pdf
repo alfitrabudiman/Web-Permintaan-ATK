@@ -1,0 +1,68 @@
+<!-- DEBUG-VIEW START 1 APPPATH\Views\permintaanatk\report.php -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laporan Permintaan ATK</title>
+</head>
+<body>
+    <h1>Laporan Permintaan ATK</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama Karyawan</th>
+                <th>ID Departemen</th>
+                <th>Tanggal Permintaan</th>
+                <th>Nama ATK</th>
+                <th>Satuan</th>
+                <th>Jumlah</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+                                                <tr>
+                        <td>alfitra</td>
+                        <td>1</td>
+                        <td>2024-06-03</td>
+                        <td>liquid</td>
+                        <td>Pcs</td>
+                        <td>2</td>
+                        <td>Done</td>
+                    </tr>
+                                                                <tr>
+                        <td>hidayatulah</td>
+                        <td>1</td>
+                        <td>2024-06-02</td>
+                        <td>Spidol</td>
+                        <td>Pcs</td>
+                        <td>1</td>
+                        <td>Done</td>
+                    </tr>
+                                                                <tr>
+                        <td>oliver</td>
+                        <td>2</td>
+                        <td>2024-06-01</td>
+                        <td>Kertas F4</td>
+                        <td>Rim</td>
+                        <td>2</td>
+                        <td>Done</td>
+                    </tr>
+                                                                <tr>
+                        <td>toyor</td>
+                        <td>1</td>
+                        <td>2024-06-05</td>
+                        <td>Spidol</td>
+                        <td>Pcs</td>
+                        <td>10</td>
+                        <td>Done</td>
+                    </tr>
+                                    </tbody>
+    </table>
+    <form action="http://localhost:8080/permintaanatk/exportPdf" method="post">
+        <input type="hidden" name="start_date" value="2024-06-01">
+        <input type="hidden" name="end_date" value="2024-06-05">
+        <button type="submit">Cetak ke PDF</button>
+    </form>
+</body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\permintaanatk\report.php -->

@@ -1,0 +1,86 @@
+/* Container Style */
+.form-container {
+  width: 400px; /* Sesuaikan lebar form */
+  margin: 50px auto; /* Membuat form berada di tengah */
+  padding: 20px;
+  background-color: #ffffff; /* Ubah warna latar belakang menjadi putih */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Style */
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+/* Form Group Style */
+.form-group {
+  margin-bottom: 16px; /* Sedikit kurangi margin-bottom untuk jarak yang lebih dekat */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #666666;
+}
+
+.form-group input[type="text"],
+.form-group select {
+  width: calc(100% - 22px); /* Sesuaikan lebar input dengan sedikit padding */
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Add ATK Button Style */
+#add-atk {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px; /* Kurangi margin-bottom untuk jarak yang lebih dekat */
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#add-atk:hover {
+  background-color: #45a049;
+}
+
+/* Remove ATK Button Style */
+.remove-atk {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-bottom: 10px; /* Berikan margin-bottom untuk jarak yang lebih dekat */
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-atk:hover {
+  background-color: #d32f2f;
+}
+
+/* Submit Button Style */
+.form-group button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: #0056b3;
+}

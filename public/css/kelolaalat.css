@@ -1,0 +1,43 @@
+/* Kelola Data ATK CSS */
+/* Warna utama biru muda */
+:root {
+  --primary-color: #42a5f5;
+}
+
+/* Style untuk tombol tambah data */
+.btn-tambah {
+  margin-bottom: 20px;
+}
+
+/* Style untuk tombol navigasi */
+.btn-navigasi {
+  margin-bottom: 10px;
+}
+
+/* Style untuk tabel data ATK */
+#atkTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#atkTable th,
+#atkTable td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+#atkTable th {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+#atkTable tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+#atkTable tbody tr:hover {
+  background-color: #e3f2fd;
+}
